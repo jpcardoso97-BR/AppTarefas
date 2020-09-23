@@ -20,7 +20,6 @@ public class Usuario{
     @Override
     public String toString() {
         return
-                '\'' + nome+ '\''+ ", "+
-                "Idade = "+'\''+idade+ '\'';
+                 nome+ " - "+"Idade = "+idade+" ";
     }
 }
