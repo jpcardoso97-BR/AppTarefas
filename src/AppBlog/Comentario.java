@@ -21,10 +21,9 @@ public class Comentario extends Postagem{
 
     @Override
     public String toString() {
-        return "{" +
-                "Usuário = " + "(" + this.nome+")"+ " "+
-                "("+"Texto = "+this.texto+")"+" "+
-                "("+"Data = "+this.data+")"+
-                '}';
+        return  "Usuário = " +this.nome+" "+
+                "Data = "+this.data+"\n"+
+                "Comentário = "+this.texto+"\n";
+
     }
 }
